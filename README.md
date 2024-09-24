@@ -10,3 +10,5 @@ developed by iSECpartners (www.isecpartners.com).
 You can choose an application, then either fuzz a single component (Activity, Broadcast Receiver or Service) or all components.
 
 For a single component, just tap an item listed to null fuzz (send and Intent with every property set to null) and long tap to serialize fuzz it (send an Intent with every property set to null except add a Serializable extra with a custom class that will be unknown to the receiving app). Use the "Null Fuzz All" and "Serialize Fuzz All" buttons for all components.
+
+![views](https://github.com/user-attachments/assets/f88591e5-8307-47f4-afb7-2c5c1213dc34)
